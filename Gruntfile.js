@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         watch: {
             /*监测的文件目录*/
-            files: ['docApp/{*,*/*,*/*/*}.*'],
+            files: ['docApp/{,*/,*/*/,*/*/*/,*/*/*/*/}*.*'],
             /*是否动态刷新*/
             options: {
                 livereload: 20000
