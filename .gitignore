@@ -12,7 +12,6 @@
 *.swp
 *.zip
 *.vi
-*.css
 *.css.map
 *.map
 *.idea
